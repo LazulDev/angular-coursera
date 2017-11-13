@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Local2GitHub</title>
+   </head>
+   <body>
+      <h1>¿Cómo volcar tu repositorio local en GitHub desde terminal?</h1>
+       <h4>Necesitas:</h4>
+	   <ul>
+			<li><a>Descargar Git</a></li>
+			<li><a>Abrir una terminal</a></li>
+			<li><a>Navegar hasta el directorio donde quieras descargar el repo (cd)</a></li>
+		</ul>
+       <h4><code>git clone https://github.com/mariasanchezc/angular-coursera.git</code></h4>
+	   <h4>Editas lo que quieras en el editor que prefieras (atom, brackets, sublime, visual studio, etc.)</h4>
+       <h4>Te puedes ayudar de browser-sync para visualizar en tiempo real los cambios que le hagas al html</h4>
+       <h4><code>browser-sync start --server --directory --files "**/*"</code></h4>
+	   <h4>Comando de git:</h4>
+	   <ul>
+			<li><a>Comprobar <b>estado</b> de git: 
+				<br><code>git status</code></a></li>
+			<li><a><b>Incluir archivos editados</b> en local (en el repo donde estemos situados) antes de ser guardados/commiteados:
+				<br><code>git add .</code></a></li>
+			<li><a><b>Commitear</b> con un <u>comentario</u>:
+				<br><code>git commit -m "mensaje que resume el commit"</code></a></li>
+			<li><a><b>Commitear</b> añadiendo <u>identidad</u>
+				<br><code> git config --global user.email "you@example.com"</code><br><code> git config --global user.email "Your Name"</code></a></li>
+			<li><a><b>Pushear</b> un commit que tengamos en local:
+				<br><code> git push</code><br> (+ logearnos en gitHub en el pop-up que salta)</a></li>
+			
+		</ul>
+   </body>
+</html>  
